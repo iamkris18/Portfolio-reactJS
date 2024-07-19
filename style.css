@@ -147,10 +147,10 @@ main2{
     filter: grayscale(1);
 }
 .slider .item:hover{
-    filter: grayscale(0);
+    filter: grayscale(2);
 }
 .slider[reverse="true"] .item{
-    animation: reversePlay 10s linear infinite;
+    animation: reversePlay 30s linear infinite;
 }
 @keyframes reversePlay{
     from{
